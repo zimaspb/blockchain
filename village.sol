@@ -11,10 +11,10 @@ contract Village is ERC1155{
     uint public houseAmount = 0;
     uint public parkingAmount = 50;
     address Admin;
-    uint public priceForWeek = 100000 gwei;
-    uint public priceForCleaning = 1000 gwei;
-    uint public priceForParking = 1000 gwei;
-    uint public priceForPizza = 1000 gwei;
+    uint public priceForWeek = 500000000 gwei;
+    uint public priceForCleaning = 25000000 gwei;
+    uint public priceForParking = 25000000 gwei;
+    uint public priceForPizza = 25000000 gwei;
 
 
     mapping (uint => string) houseNumber;
